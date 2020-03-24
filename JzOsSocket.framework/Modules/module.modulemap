@@ -1,0 +1,11 @@
+framework module JzOsSocket {
+  umbrella header "JzOsSocket.h"
+
+  export *
+  module * { export * }
+}
+
+module JzOsSocket.Swift {
+    header "JzOsSocket-Swift.h"
+    requires objc
+}
